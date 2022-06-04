@@ -56,6 +56,8 @@ const main = async () => {
                     // console.log(ok)
                 }
                 break;
+            case '0':
+                break;
             }
                     
         guardarDB( tareas.listadoTareas);
@@ -64,7 +66,7 @@ const main = async () => {
         await pausa();
 
     } while( opt !== '0')
-    mostrarMenu();
+    // mostrarMenu();
 }
 
 main();
